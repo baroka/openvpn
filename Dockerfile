@@ -1,7 +1,7 @@
 # build:
 #  docker build -t baroka/openvpn .
 
-FROM alpine
+FROM alpine:latest
 
 # Install openvpn
 RUN apk --no-cache --no-progress upgrade && \
